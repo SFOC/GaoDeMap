@@ -1,0 +1,9 @@
+
+
+target '高德地图研究' do
+
+pod 'AMap3DMap'
+pod 'AMapSearch'
+pod 'AMapLocation'
+
+end

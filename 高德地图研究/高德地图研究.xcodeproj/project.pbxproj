@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041CA4891F21213500F47FBA /* DrawBrokenLineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 041CA4881F21213400F47FBA /* DrawBrokenLineVC.m */; };
+		041CA48C1F2129FD00F47FBA /* GetWeatherDataVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 041CA48B1F2129FD00F47FBA /* GetWeatherDataVC.m */; };
+		0488D0D91F201C4D000A0321 /* OfflineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0488D0D81F201C4D000A0321 /* OfflineVC.m */; };
+		0488D0DB1F201D55000A0321 /* OfflineVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0488D0DA1F201D55000A0321 /* OfflineVC.xib */; };
+		0488D0E31F2032FC000A0321 /* NSArray+ ZXPUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0488D0DD1F2032FC000A0321 /* NSArray+ ZXPUnicode.m */; };
+		0488D0E41F2032FC000A0321 /* NSDictionary+ZXPUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0488D0E01F2032FC000A0321 /* NSDictionary+ZXPUnicode.m */; };
+		0488D0E51F2032FC000A0321 /* NSObject+ZXPUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0488D0E21F2032FC000A0321 /* NSObject+ZXPUnicode.m */; };
+		0488D0E91F2036AE000A0321 /* ControlsInterationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0488D0E81F2036AE000A0321 /* ControlsInterationVC.m */; };
+		0488D0EC1F203793000A0321 /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0488D0EB1F203793000A0321 /* BaseVC.m */; };
+		0488D0EF1F203B42000A0321 /* GestureInterationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0488D0EE1F203B42000A0321 /* GestureInterationVC.m */; };
+		0488D0F21F2041D5000A0321 /* MethodInterationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0488D0F11F2041D5000A0321 /* MethodInterationVC.m */; };
+		0488D0F51F204737000A0321 /* MapScreenshots.m in Sources */ = {isa = PBXBuildFile; fileRef = 0488D0F41F204737000A0321 /* MapScreenshots.m */; };
+		0488D0F91F204B3C000A0321 /* DrawPointVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0488D0F81F204B3C000A0321 /* DrawPointVC.m */; };
+		04D573341F1EDA840011F2D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D573331F1EDA840011F2D7 /* main.m */; };
+		04D573371F1EDA840011F2D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D573361F1EDA840011F2D7 /* AppDelegate.m */; };
+		04D5733F1F1EDA840011F2D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D5733E1F1EDA840011F2D7 /* Assets.xcassets */; };
+		04D573421F1EDA840011F2D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D573401F1EDA840011F2D7 /* LaunchScreen.storyboard */; };
+		04D5734D1F1EDA840011F2D7 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D5734C1F1EDA840011F2D7 /* ______Tests.m */; };
+		04D573581F1EDA840011F2D7 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D573571F1EDA840011F2D7 /* ______UITests.m */; };
+		04D573681F1EDFA10011F2D7 /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D573671F1EDFA10011F2D7 /* RootTableViewController.m */; };
+		04D573781F1EF3F30011F2D7 /* BackgroundLocationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D573741F1EF3F30011F2D7 /* BackgroundLocationVC.m */; };
+		04D573791F1EF3F30011F2D7 /* BackgroundLocationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D573751F1EF3F30011F2D7 /* BackgroundLocationVC.xib */; };
+		04D5737A1F1EF3F30011F2D7 /* OnceLocationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D573771F1EF3F30011F2D7 /* OnceLocationVC.m */; };
+		04D5737D1F1F0BBC0011F2D7 /* GeographicalFenceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D5737C1F1F0BBC0011F2D7 /* GeographicalFenceVC.m */; };
+		04DD53EF1F1F24B000F8D3A3 /* CustomLocationPointVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DD53EE1F1F24B000F8D3A3 /* CustomLocationPointVC.m */; };
+		04DD53F11F1F2ADA00F8D3A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DD53F01F1F2ADA00F8D3A3 /* Main.storyboard */; };
+		04DD53F31F1F2D1A00F8D3A3 /* location_map.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DD53F21F1F2D1900F8D3A3 /* location_map.png */; };
+		2A88EDFC3CEED50B104BFC91 /* libPods-高德地图研究.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B5DA74923DD141E80429128 /* libPods-高德地图研究.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04D573491F1EDA840011F2D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04D573271F1EDA840011F2D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D5732E1F1EDA840011F2D7;
+			remoteInfo = "高德地图研究";
+		};
+		04D573541F1EDA840011F2D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04D573271F1EDA840011F2D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D5732E1F1EDA840011F2D7;
+			remoteInfo = "高德地图研究";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		041CA4871F21213400F47FBA /* DrawBrokenLineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawBrokenLineVC.h; sourceTree = "<group>"; };
+		041CA4881F21213400F47FBA /* DrawBrokenLineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawBrokenLineVC.m; sourceTree = "<group>"; };
+		041CA48A1F2129FD00F47FBA /* GetWeatherDataVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetWeatherDataVC.h; sourceTree = "<group>"; };
+		041CA48B1F2129FD00F47FBA /* GetWeatherDataVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetWeatherDataVC.m; sourceTree = "<group>"; };
+		0488D0D71F201C4D000A0321 /* OfflineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfflineVC.h; sourceTree = "<group>"; };
+		0488D0D81F201C4D000A0321 /* OfflineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfflineVC.m; sourceTree = "<group>"; };
+		0488D0DA1F201D55000A0321 /* OfflineVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OfflineVC.xib; sourceTree = "<group>"; };
+		0488D0DD1F2032FC000A0321 /* NSArray+ ZXPUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ ZXPUnicode.m"; sourceTree = "<group>"; };
+		0488D0DE1F2032FC000A0321 /* NSArray+ZXPUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ZXPUnicode.h"; sourceTree = "<group>"; };
+		0488D0DF1F2032FC000A0321 /* NSDictionary+ZXPUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ZXPUnicode.h"; sourceTree = "<group>"; };
+		0488D0E01F2032FC000A0321 /* NSDictionary+ZXPUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ZXPUnicode.m"; sourceTree = "<group>"; };
+		0488D0E11F2032FC000A0321 /* NSObject+ZXPUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZXPUnicode.h"; sourceTree = "<group>"; };
+		0488D0E21F2032FC000A0321 /* NSObject+ZXPUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZXPUnicode.m"; sourceTree = "<group>"; };
+		0488D0E71F2036AE000A0321 /* ControlsInterationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlsInterationVC.h; sourceTree = "<group>"; };
+		0488D0E81F2036AE000A0321 /* ControlsInterationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlsInterationVC.m; sourceTree = "<group>"; };
+		0488D0EA1F203793000A0321 /* BaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseVC.h; sourceTree = "<group>"; };
+		0488D0EB1F203793000A0321 /* BaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseVC.m; sourceTree = "<group>"; };
+		0488D0ED1F203B42000A0321 /* GestureInterationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureInterationVC.h; sourceTree = "<group>"; };
+		0488D0EE1F203B42000A0321 /* GestureInterationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureInterationVC.m; sourceTree = "<group>"; };
+		0488D0F01F2041D5000A0321 /* MethodInterationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodInterationVC.h; sourceTree = "<group>"; };
+		0488D0F11F2041D5000A0321 /* MethodInterationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodInterationVC.m; sourceTree = "<group>"; };
+		0488D0F31F204737000A0321 /* MapScreenshots.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapScreenshots.h; sourceTree = "<group>"; };
+		0488D0F41F204737000A0321 /* MapScreenshots.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapScreenshots.m; sourceTree = "<group>"; };
+		0488D0F71F204B3C000A0321 /* DrawPointVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawPointVC.h; sourceTree = "<group>"; };
+		0488D0F81F204B3C000A0321 /* DrawPointVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawPointVC.m; sourceTree = "<group>"; };
+		04D5732F1F1EDA840011F2D7 /* 高德地图研究.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "高德地图研究.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D573331F1EDA840011F2D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04D573351F1EDA840011F2D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04D573361F1EDA840011F2D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04D5733E1F1EDA840011F2D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04D573411F1EDA840011F2D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04D573431F1EDA840011F2D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D573481F1EDA840011F2D7 /* 高德地图研究Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "高德地图研究Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D5734C1F1EDA840011F2D7 /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+		04D5734E1F1EDA840011F2D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D573531F1EDA840011F2D7 /* 高德地图研究UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "高德地图研究UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D573571F1EDA840011F2D7 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
+		04D573591F1EDA840011F2D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D573651F1EDBD50011F2D7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		04D573661F1EDFA10011F2D7 /* RootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTableViewController.h; sourceTree = "<group>"; };
+		04D573671F1EDFA10011F2D7 /* RootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTableViewController.m; sourceTree = "<group>"; };
+		04D573731F1EF3F30011F2D7 /* BackgroundLocationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundLocationVC.h; sourceTree = "<group>"; };
+		04D573741F1EF3F30011F2D7 /* BackgroundLocationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundLocationVC.m; sourceTree = "<group>"; };
+		04D573751F1EF3F30011F2D7 /* BackgroundLocationVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BackgroundLocationVC.xib; sourceTree = "<group>"; };
+		04D573761F1EF3F30011F2D7 /* OnceLocationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnceLocationVC.h; sourceTree = "<group>"; };
+		04D573771F1EF3F30011F2D7 /* OnceLocationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnceLocationVC.m; sourceTree = "<group>"; };
+		04D5737B1F1F0BBC0011F2D7 /* GeographicalFenceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeographicalFenceVC.h; sourceTree = "<group>"; };
+		04D5737C1F1F0BBC0011F2D7 /* GeographicalFenceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeographicalFenceVC.m; sourceTree = "<group>"; };
+		04DD53ED1F1F24B000F8D3A3 /* CustomLocationPointVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLocationPointVC.h; sourceTree = "<group>"; };
+		04DD53EE1F1F24B000F8D3A3 /* CustomLocationPointVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLocationPointVC.m; sourceTree = "<group>"; };
+		04DD53F01F1F2ADA00F8D3A3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		04DD53F21F1F2D1900F8D3A3 /* location_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location_map.png; sourceTree = "<group>"; };
+		1B5DA74923DD141E80429128 /* libPods-高德地图研究.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-高德地图研究.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		698449AE2E06072B21EBF746 /* Pods-高德地图研究.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-高德地图研究.debug.xcconfig"; path = "Pods/Target Support Files/Pods-高德地图研究/Pods-高德地图研究.debug.xcconfig"; sourceTree = "<group>"; };
+		988E6D676AAE17BB104F3970 /* Pods-高德地图研究.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-高德地图研究.release.xcconfig"; path = "Pods/Target Support Files/Pods-高德地图研究/Pods-高德地图研究.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04D5732C1F1EDA840011F2D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A88EDFC3CEED50B104BFC91 /* libPods-高德地图研究.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D573451F1EDA840011F2D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D573501F1EDA840011F2D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0488D0DC1F2032FC000A0321 /* ZXPUnicode */ = {
+			isa = PBXGroup;
+			children = (
+				0488D0DD1F2032FC000A0321 /* NSArray+ ZXPUnicode.m */,
+				0488D0DE1F2032FC000A0321 /* NSArray+ZXPUnicode.h */,
+				0488D0DF1F2032FC000A0321 /* NSDictionary+ZXPUnicode.h */,
+				0488D0E01F2032FC000A0321 /* NSDictionary+ZXPUnicode.m */,
+				0488D0E11F2032FC000A0321 /* NSObject+ZXPUnicode.h */,
+				0488D0E21F2032FC000A0321 /* NSObject+ZXPUnicode.m */,
+			);
+			path = ZXPUnicode;
+			sourceTree = "<group>";
+		};
+		0488D0E61F203680000A0321 /* InterationMap */ = {
+			isa = PBXGroup;
+			children = (
+				0488D0E71F2036AE000A0321 /* ControlsInterationVC.h */,
+				0488D0E81F2036AE000A0321 /* ControlsInterationVC.m */,
+				0488D0ED1F203B42000A0321 /* GestureInterationVC.h */,
+				0488D0EE1F203B42000A0321 /* GestureInterationVC.m */,
+				0488D0F01F2041D5000A0321 /* MethodInterationVC.h */,
+				0488D0F11F2041D5000A0321 /* MethodInterationVC.m */,
+				0488D0F31F204737000A0321 /* MapScreenshots.h */,
+				0488D0F41F204737000A0321 /* MapScreenshots.m */,
+			);
+			path = InterationMap;
+			sourceTree = "<group>";
+		};
+		0488D0F61F204B23000A0321 /* OnMapDraw */ = {
+			isa = PBXGroup;
+			children = (
+				0488D0F71F204B3C000A0321 /* DrawPointVC.h */,
+				0488D0F81F204B3C000A0321 /* DrawPointVC.m */,
+				041CA4871F21213400F47FBA /* DrawBrokenLineVC.h */,
+				041CA4881F21213400F47FBA /* DrawBrokenLineVC.m */,
+				041CA48A1F2129FD00F47FBA /* GetWeatherDataVC.h */,
+				041CA48B1F2129FD00F47FBA /* GetWeatherDataVC.m */,
+			);
+			path = OnMapDraw;
+			sourceTree = "<group>";
+		};
+		04D573261F1EDA840011F2D7 = {
+			isa = PBXGroup;
+			children = (
+				04D573311F1EDA840011F2D7 /* 高德地图研究 */,
+				04D5734B1F1EDA840011F2D7 /* 高德地图研究Tests */,
+				04D573561F1EDA840011F2D7 /* 高德地图研究UITests */,
+				04D573301F1EDA840011F2D7 /* Products */,
+				317093ED0974C809E408D7C1 /* Pods */,
+				B1FBBC8697B2B0B697D2247E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04D573301F1EDA840011F2D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04D5732F1F1EDA840011F2D7 /* 高德地图研究.app */,
+				04D573481F1EDA840011F2D7 /* 高德地图研究Tests.xctest */,
+				04D573531F1EDA840011F2D7 /* 高德地图研究UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04D573311F1EDA840011F2D7 /* 高德地图研究 */ = {
+			isa = PBXGroup;
+			children = (
+				0488D0DC1F2032FC000A0321 /* ZXPUnicode */,
+				04DD53F21F1F2D1900F8D3A3 /* location_map.png */,
+				04D573351F1EDA840011F2D7 /* AppDelegate.h */,
+				04D573361F1EDA840011F2D7 /* AppDelegate.m */,
+				04D573661F1EDFA10011F2D7 /* RootTableViewController.h */,
+				04D573671F1EDFA10011F2D7 /* RootTableViewController.m */,
+				04D573651F1EDBD50011F2D7 /* PrefixHeader.pch */,
+				04DD53F01F1F2ADA00F8D3A3 /* Main.storyboard */,
+				0488D0EA1F203793000A0321 /* BaseVC.h */,
+				0488D0EB1F203793000A0321 /* BaseVC.m */,
+				0488D0F61F204B23000A0321 /* OnMapDraw */,
+				0488D0E61F203680000A0321 /* InterationMap */,
+				04DD53EC1F1F248A00F8D3A3 /* Map */,
+				04D573721F1EF3F30011F2D7 /* MapLocation */,
+				04D5733E1F1EDA840011F2D7 /* Assets.xcassets */,
+				04D573401F1EDA840011F2D7 /* LaunchScreen.storyboard */,
+				04D573431F1EDA840011F2D7 /* Info.plist */,
+				04D573321F1EDA840011F2D7 /* Supporting Files */,
+			);
+			path = "高德地图研究";
+			sourceTree = "<group>";
+		};
+		04D573321F1EDA840011F2D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04D573331F1EDA840011F2D7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04D5734B1F1EDA840011F2D7 /* 高德地图研究Tests */ = {
+			isa = PBXGroup;
+			children = (
+				04D5734C1F1EDA840011F2D7 /* ______Tests.m */,
+				04D5734E1F1EDA840011F2D7 /* Info.plist */,
+			);
+			path = "高德地图研究Tests";
+			sourceTree = "<group>";
+		};
+		04D573561F1EDA840011F2D7 /* 高德地图研究UITests */ = {
+			isa = PBXGroup;
+			children = (
+				04D573571F1EDA840011F2D7 /* ______UITests.m */,
+				04D573591F1EDA840011F2D7 /* Info.plist */,
+			);
+			path = "高德地图研究UITests";
+			sourceTree = "<group>";
+		};
+		04D573721F1EF3F30011F2D7 /* MapLocation */ = {
+			isa = PBXGroup;
+			children = (
+				04D573731F1EF3F30011F2D7 /* BackgroundLocationVC.h */,
+				04D573741F1EF3F30011F2D7 /* BackgroundLocationVC.m */,
+				04D573751F1EF3F30011F2D7 /* BackgroundLocationVC.xib */,
+				04D573761F1EF3F30011F2D7 /* OnceLocationVC.h */,
+				04D573771F1EF3F30011F2D7 /* OnceLocationVC.m */,
+				04D5737B1F1F0BBC0011F2D7 /* GeographicalFenceVC.h */,
+				04D5737C1F1F0BBC0011F2D7 /* GeographicalFenceVC.m */,
+			);
+			path = MapLocation;
+			sourceTree = "<group>";
+		};
+		04DD53EC1F1F248A00F8D3A3 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				04DD53ED1F1F24B000F8D3A3 /* CustomLocationPointVC.h */,
+				04DD53EE1F1F24B000F8D3A3 /* CustomLocationPointVC.m */,
+				0488D0D71F201C4D000A0321 /* OfflineVC.h */,
+				0488D0D81F201C4D000A0321 /* OfflineVC.m */,
+				0488D0DA1F201D55000A0321 /* OfflineVC.xib */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		317093ED0974C809E408D7C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				698449AE2E06072B21EBF746 /* Pods-高德地图研究.debug.xcconfig */,
+				988E6D676AAE17BB104F3970 /* Pods-高德地图研究.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B1FBBC8697B2B0B697D2247E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B5DA74923DD141E80429128 /* libPods-高德地图研究.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04D5732E1F1EDA840011F2D7 /* 高德地图研究 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D5735C1F1EDA840011F2D7 /* Build configuration list for PBXNativeTarget "高德地图研究" */;
+			buildPhases = (
+				F0924A06E42973CA3DCC4841 /* [CP] Check Pods Manifest.lock */,
+				04D5732B1F1EDA840011F2D7 /* Sources */,
+				04D5732C1F1EDA840011F2D7 /* Frameworks */,
+				04D5732D1F1EDA840011F2D7 /* Resources */,
+				DB3CC996F2979353B0347C6E /* [CP] Embed Pods Frameworks */,
+				51CA49850021904BCD873659 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "高德地图研究";
+			productName = "高德地图研究";
+			productReference = 04D5732F1F1EDA840011F2D7 /* 高德地图研究.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04D573471F1EDA840011F2D7 /* 高德地图研究Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D5735F1F1EDA840011F2D7 /* Build configuration list for PBXNativeTarget "高德地图研究Tests" */;
+			buildPhases = (
+				04D573441F1EDA840011F2D7 /* Sources */,
+				04D573451F1EDA840011F2D7 /* Frameworks */,
+				04D573461F1EDA840011F2D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04D5734A1F1EDA840011F2D7 /* PBXTargetDependency */,
+			);
+			name = "高德地图研究Tests";
+			productName = "高德地图研究Tests";
+			productReference = 04D573481F1EDA840011F2D7 /* 高德地图研究Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04D573521F1EDA840011F2D7 /* 高德地图研究UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D573621F1EDA840011F2D7 /* Build configuration list for PBXNativeTarget "高德地图研究UITests" */;
+			buildPhases = (
+				04D5734F1F1EDA840011F2D7 /* Sources */,
+				04D573501F1EDA840011F2D7 /* Frameworks */,
+				04D573511F1EDA840011F2D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04D573551F1EDA840011F2D7 /* PBXTargetDependency */,
+			);
+			name = "高德地图研究UITests";
+			productName = "高德地图研究UITests";
+			productReference = 04D573531F1EDA840011F2D7 /* 高德地图研究UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04D573271F1EDA840011F2D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = flyfly;
+				TargetAttributes = {
+					04D5732E1F1EDA840011F2D7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					04D573471F1EDA840011F2D7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04D5732E1F1EDA840011F2D7;
+					};
+					04D573521F1EDA840011F2D7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04D5732E1F1EDA840011F2D7;
+					};
+				};
+			};
+			buildConfigurationList = 04D5732A1F1EDA840011F2D7 /* Build configuration list for PBXProject "高德地图研究" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04D573261F1EDA840011F2D7;
+			productRefGroup = 04D573301F1EDA840011F2D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04D5732E1F1EDA840011F2D7 /* 高德地图研究 */,
+				04D573471F1EDA840011F2D7 /* 高德地图研究Tests */,
+				04D573521F1EDA840011F2D7 /* 高德地图研究UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04D5732D1F1EDA840011F2D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0488D0DB1F201D55000A0321 /* OfflineVC.xib in Resources */,
+				04D573421F1EDA840011F2D7 /* LaunchScreen.storyboard in Resources */,
+				04D5733F1F1EDA840011F2D7 /* Assets.xcassets in Resources */,
+				04D573791F1EF3F30011F2D7 /* BackgroundLocationVC.xib in Resources */,
+				04DD53F11F1F2ADA00F8D3A3 /* Main.storyboard in Resources */,
+				04DD53F31F1F2D1A00F8D3A3 /* location_map.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D573461F1EDA840011F2D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D573511F1EDA840011F2D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51CA49850021904BCD873659 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-高德地图研究/Pods-高德地图研究-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB3CC996F2979353B0347C6E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-高德地图研究/Pods-高德地图研究-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0924A06E42973CA3DCC4841 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04D5732B1F1EDA840011F2D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D5737D1F1F0BBC0011F2D7 /* GeographicalFenceVC.m in Sources */,
+				0488D0F21F2041D5000A0321 /* MethodInterationVC.m in Sources */,
+				04D573681F1EDFA10011F2D7 /* RootTableViewController.m in Sources */,
+				0488D0D91F201C4D000A0321 /* OfflineVC.m in Sources */,
+				0488D0EC1F203793000A0321 /* BaseVC.m in Sources */,
+				0488D0E91F2036AE000A0321 /* ControlsInterationVC.m in Sources */,
+				0488D0E51F2032FC000A0321 /* NSObject+ZXPUnicode.m in Sources */,
+				04D573371F1EDA840011F2D7 /* AppDelegate.m in Sources */,
+				0488D0EF1F203B42000A0321 /* GestureInterationVC.m in Sources */,
+				04D573341F1EDA840011F2D7 /* main.m in Sources */,
+				0488D0F51F204737000A0321 /* MapScreenshots.m in Sources */,
+				041CA48C1F2129FD00F47FBA /* GetWeatherDataVC.m in Sources */,
+				0488D0E31F2032FC000A0321 /* NSArray+ ZXPUnicode.m in Sources */,
+				04D5737A1F1EF3F30011F2D7 /* OnceLocationVC.m in Sources */,
+				0488D0F91F204B3C000A0321 /* DrawPointVC.m in Sources */,
+				0488D0E41F2032FC000A0321 /* NSDictionary+ZXPUnicode.m in Sources */,
+				041CA4891F21213500F47FBA /* DrawBrokenLineVC.m in Sources */,
+				04D573781F1EF3F30011F2D7 /* BackgroundLocationVC.m in Sources */,
+				04DD53EF1F1F24B000F8D3A3 /* CustomLocationPointVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D573441F1EDA840011F2D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D5734D1F1EDA840011F2D7 /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D5734F1F1EDA840011F2D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D573581F1EDA840011F2D7 /* ______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04D5734A1F1EDA840011F2D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04D5732E1F1EDA840011F2D7 /* 高德地图研究 */;
+			targetProxy = 04D573491F1EDA840011F2D7 /* PBXContainerItemProxy */;
+		};
+		04D573551F1EDA840011F2D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04D5732E1F1EDA840011F2D7 /* 高德地图研究 */;
+			targetProxy = 04D573541F1EDA840011F2D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04D573401F1EDA840011F2D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04D573411F1EDA840011F2D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04D5735A1F1EDA840011F2D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04D5735B1F1EDA840011F2D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04D5735D1F1EDA840011F2D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 698449AE2E06072B21EBF746 /* Pods-高德地图研究.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/高德地图研究/PrefixHeader.pch";
+				INFOPLIST_FILE = "高德地图研究/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shifengTest1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04D5735E1F1EDA840011F2D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 988E6D676AAE17BB104F3970 /* Pods-高德地图研究.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/高德地图研究/PrefixHeader.pch";
+				INFOPLIST_FILE = "高德地图研究/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shifengTest1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04D573601F1EDA840011F2D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "高德地图研究Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fly.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/高德地图研究.app/高德地图研究";
+			};
+			name = Debug;
+		};
+		04D573611F1EDA840011F2D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "高德地图研究Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fly.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/高德地图研究.app/高德地图研究";
+			};
+			name = Release;
+		};
+		04D573631F1EDA840011F2D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "高德地图研究UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fly.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "高德地图研究";
+			};
+			name = Debug;
+		};
+		04D573641F1EDA840011F2D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "高德地图研究UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fly.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "高德地图研究";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04D5732A1F1EDA840011F2D7 /* Build configuration list for PBXProject "高德地图研究" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D5735A1F1EDA840011F2D7 /* Debug */,
+				04D5735B1F1EDA840011F2D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D5735C1F1EDA840011F2D7 /* Build configuration list for PBXNativeTarget "高德地图研究" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D5735D1F1EDA840011F2D7 /* Debug */,
+				04D5735E1F1EDA840011F2D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D5735F1F1EDA840011F2D7 /* Build configuration list for PBXNativeTarget "高德地图研究Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D573601F1EDA840011F2D7 /* Debug */,
+				04D573611F1EDA840011F2D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D573621F1EDA840011F2D7 /* Build configuration list for PBXNativeTarget "高德地图研究UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D573631F1EDA840011F2D7 /* Debug */,
+				04D573641F1EDA840011F2D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04D573271F1EDA840011F2D7 /* Project object */;
+}
